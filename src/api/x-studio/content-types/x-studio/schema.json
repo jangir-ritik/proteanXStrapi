@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "x_studios",
+  "info": {
+    "singularName": "x-studio",
+    "pluralName": "x-studios",
+    "displayName": "XStudio"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "sections": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "sections.hero",
+        "sections.single-column",
+        "sections.two-column"
+      ]
+    }
+  }
+}

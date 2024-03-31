@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_elements_lists",
+  "info": {
+    "displayName": "list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "li": {
+      "type": "json"
+    }
+  }
+}

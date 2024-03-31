@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_sections_two_columns",
+  "info": {
+    "displayName": "twoColumn",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "super": {
+      "type": "string"
+    },
+    "title": {
+      "type": "json"
+    },
+    "sectionImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "linkButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.link-button"
+    },
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.list"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
